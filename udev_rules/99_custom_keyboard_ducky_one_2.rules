@@ -1,0 +1,2 @@
+# Ducky One 2 RGB TKL
+SUBSYSTEM=="usb", ATTRS{idVendor}=="04d9", ATTRS{idProduct}=="0356", RUN+="/usr/local/bin/swich_keyboard_led.sh --color <COLOR>"

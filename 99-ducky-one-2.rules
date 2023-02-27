@@ -1,0 +1,5 @@
+#/etc/udev/rules.d/99-ducky.rules
+#chmod +x /path/to/script.sh
+
+# Ducky One 2 RGB TKL
+SUBSYSTEM=="usb", ATTRS{idVendor}=="04d9", ATTRS{idProduct}=="0356", RUN+="/path/to/script.sh"

@@ -8,7 +8,7 @@ To distinguish which laptop I use, I change the led color based on a UDEV rule.
 
 # Requirements
 
-* APT: openrgb
+* openrgb
 
 
 # Installation
@@ -16,7 +16,7 @@ To distinguish which laptop I use, I change the led color based on a UDEV rule.
 To use the Keyboard LED Configurator, clone the repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/username/keyboard-led-configurator.git
+git clone https://github.com/marcvorwerk/keyboard-led-configurator.git
 cd keyboard-led-configurator
 (sudo) ./install.sh
 ```
